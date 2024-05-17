@@ -1,5 +1,5 @@
 import React from "react";
-import { RxDiscordLogo, RxGithubLogo } from "react-icons/rx";
+import {  RxGithubLogo, RxLinkedinLogo } from "react-icons/rx";
 import { SiGmail } from "react-icons/si";
 
 const Footer = () => {
@@ -26,7 +26,7 @@ const Footer = () => {
               rel="noopener noreferrer"
               className="flex flex-row items-center my-[15px] cursor-pointer"
             >
-              <RxDiscordLogo />
+              <RxLinkedinLogo/>
               LinkedIn
             </a>
           </div>
