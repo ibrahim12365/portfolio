@@ -23,12 +23,7 @@ export const Skill_data = [
     width: 65,
     height: 65,
   },
-  {
-    skill_name: "Symfony",
-    Image: "/symfony.png",
-    width: 80,
-    height: 80,
-  },
+ 
  
   {
     skill_name: "Angular",
@@ -39,6 +34,12 @@ export const Skill_data = [
   {
     skill_name: "Type Script",
     Image: "/ts.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Symfony",
+    Image: "/symfony.png",
     width: 80,
     height: 80,
   },
