@@ -1,5 +1,11 @@
 export const Skill_data = [
   {
+    skill_name: ".Net",
+    Image: "/Net.png",
+    width: 80,
+    height: 80,
+  },
+  {
     skill_name: "Html 5",
     Image: "/html.png",
     width: 80,
@@ -18,11 +24,12 @@ export const Skill_data = [
     height: 65,
   },
   {
-    skill_name: "React",
-    Image: "/react.png",
+    skill_name: "Symfony",
+    Image: "/symfony.png",
     width: 80,
     height: 80,
   },
+ 
   {
     skill_name: "Angular",
     Image: "/angular.png",
@@ -41,12 +48,7 @@ export const Skill_data = [
     width: 80,
     height: 80,
   },
-  {
-    skill_name: "Mongo db",
-    Image: "/mongodb.png",
-    width: 40,
-    height: 40,
-  },
+ 
 ];
 
 export const Socials = [
@@ -54,38 +56,37 @@ export const Socials = [
     name: "Github",
     src: "/github.png",
 
-    url: "https://github.com/ibrahim12365"
+    url: "https://github.com/ibrahim12365",
+    width:"50",
+    height:"50",
   },
   {
     name: "Linkedin",
     src: "/LinkedIn.webp",
-    url: "https://linkedin.com/in/ibrahim-benkhalifa-5910a0175"
+    url: "https://linkedin.com/in/ibrahim-benkhalifa-5910a0175",
+   
   },
   {
     name: "Gmail",
     src: "/Gmail.png",
-    url: "mailto:ibrahim.benkhalifa.1992@gmail.com"
+    url: "mailto:ibrahim.benkhalifa.1992@gmail.com",
+    width:"50",
+    height:"50",
   },
 ];
 
 export const Frontend_skill = [
+  
+  
+ 
+];
+
+export const Backend_skill = [
   {
-    skill_name: "Html 5",
-    Image: "/html.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Css",
-    Image: "/css.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Java Script",
-    Image: "/js.png",
-    width: 65,
-    height: 65,
+    skill_name: "Postman",
+    Image: "/postman.png",
+    width: 70,
+    height: 70,
   },
   {
     skill_name: "React",
@@ -93,27 +94,7 @@ export const Frontend_skill = [
     width: 80,
     height: 80,
   },
-  {
-    skill_name: "Type Script",
-    Image: "/ts.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Symfony",
-    Image: "/symfony.png",
-    width: 80,
-    height: 80,
-  },
-];
-
-export const Backend_skill = [
-  {
-    skill_name: "Node js",
-    Image: "/node-js.png",
-    width: 80,
-    height: 80,
-  },
+ 
   {
     skill_name: "springBoot",
     Image: "/springBoot.png",
@@ -138,6 +119,13 @@ export const Backend_skill = [
     width: 70,
     height: 70,
   },
+  {
+    skill_name: "Git",
+    Image: "/git.png",
+    width: 70,
+    height: 70,
+  },
+ 
 ];
 
 export const Full_stack = [
@@ -152,6 +140,24 @@ export const Full_stack = [
     Image: "/jenkins.png",
     width: 60,
     height: 60,
+  },
+  {
+    skill_name: "Bootstrap",
+    Image: "/bootstrap.png",
+    width: 70,
+    height: 70,
+  },
+  {
+    skill_name: "Nexus",
+    Image: "/nexus.png",
+    width: 70,
+    height: 70,
+  },
+  {
+    skill_name: "SonarQube",
+    Image: "/sonarqube.png",
+    width: 70,
+    height: 70,
   },
 ];
 
